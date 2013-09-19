@@ -12,7 +12,7 @@ apt-get -y autoremove
 apt-get -y update
 apt-get -y install git
 apt-get -y install libnss-mdns
-apt-get -y install nano
+apt-get -y install vim
 rm -rf /home/pi/python_games
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
@@ -28,8 +28,13 @@ echo "$(tput setaf 2)
    '~ .~~~. ~'
        '~'
 $(tput sgr0)" > /etc/motd
+echo "syntax enable 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab" > /home/pi/.vimrc
 cp /etc/skel/.bashrc /home/pi/.bashrc
-echo "export EDITOR=nano" >> /home/pi/.bashrc
+echo "export EDITOR=vim" >> /home/pi/.bashrc
 dd if=/dev/zero of=zero.file bs=1024
 sync; sleep 60; sync
 rm zero.file
