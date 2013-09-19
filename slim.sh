@@ -24,6 +24,3 @@ set shiftwidth=2
 set expandtab" > /home/pi/.vimrc
 cp /etc/skel/.bashrc /home/pi/.bashrc
 echo "export EDITOR=vim" >> /home/pi/.bashrc
-dd if=/dev/zero of=zero.file bs=1024
-sync; sleep 60; sync
-rm zero.file
