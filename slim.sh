@@ -24,3 +24,5 @@ set shiftwidth=2
 set expandtab" > /home/pi/.vimrc
 cp /etc/skel/.bashrc /home/pi/.bashrc
 echo "export EDITOR=vim" >> /home/pi/.bashrc
+echo "Raspbian Mod is finished! You should reboot"
+echo ""
