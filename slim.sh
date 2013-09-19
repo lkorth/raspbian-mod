@@ -10,7 +10,6 @@ apt-get -y remove --purge raspberrypi-artwork
 apt-get -y remove --purge omxplayer
 apt-get -y autoremove
 apt-get -y update
-apt-get -y install git
 apt-get -y install libnss-mdns
 apt-get -y install vim
 rm -rf /home/pi/python_games
