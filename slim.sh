@@ -15,18 +15,6 @@ apt-get -y install vim
 rm -rf /home/pi/python_games
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
-echo "$(tput setaf 2)
-   .~~.   .~~.
-  '. \ ' ' / .'$(tput setaf 1)
-   .~ .~~~..~.
-  : .~.'~'.~. :
- ~ (   ) (   ) ~
-( : '~'.~.'~' : )
- ~ .~ (   ) ~. ~
-  (  : '~' :  ) $(tput sgr0)Raspbian-mod$(tput setaf 1)
-   '~ .~~~. ~'
-       '~'
-$(tput sgr0)" > /etc/motd
 echo "syntax enable 
 set tabstop=2
 set softtabstop=2
