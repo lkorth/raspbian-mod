@@ -13,6 +13,8 @@ apt-get -y update
 apt-get -y upgrade
 apt-get -y install vim
 rm -rf /home/pi/python_games
+rm -rf /home/pi/Desktop
+rm -rf /home/pi/ocr_pi.png
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
 echo "syntax enable 
