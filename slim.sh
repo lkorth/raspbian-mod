@@ -2,6 +2,7 @@ apt-get -y remove --purge xserver-common
 apt-get -y remove --purge x11-common
 apt-get -y remove --purge gnome-icon-theme
 apt-get -y remove --purge gnome-themes-standard
+apt-get -y remove --purge lxde-icon-theme
 apt-get -y remove --purge penguinspuzzle
 apt-get -y remove --purge desktop-base
 apt-get -y remove --purge desktop-file-utils
