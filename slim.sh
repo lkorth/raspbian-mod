@@ -9,6 +9,7 @@ apt-get -y remove --purge desktop-file-utils
 apt-get -y remove --purge hicolor-icon-theme
 apt-get -y remove --purge raspberrypi-artwork
 apt-get -y remove --purge omxplayer
+apt-get -y remove --purge scratch
 apt-get -y autoremove
 apt-get -y update
 apt-get -y upgrade
