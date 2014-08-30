@@ -5,13 +5,12 @@
 Raspbian-mod is a modification of the Raspbian OS (Debian for the Raspberry Pi) targeted for headless operation. Raspbian-mod removes several packages which are unneeded in headless mode, and adds a few missing packages.
 
 Raspbian-mod fits easily on a 2 GB SD card with ~550 MB of free space remaining. For those looking for additional space, larger cards are supported as well.
-    
+
 # Features
 
 In addition to slimming down Raspbian by removing the GUI, Raspbian-mod also features:
 
 * [Hexxeh firmware update](https://github.com/Hexxeh/rpi-update)
-* Full Vim (with syntax highlighting enabled)
 
 # Building
 
@@ -20,6 +19,6 @@ You can build your own Raspbian-mod by starting with with the official image fro
 Once you've created your Raspbian SD card, boot your Raspberry Pi and execute this command from the command prompt:
 
     sudo bash < <( curl https://raw.github.com/lkorth/raspbian-mod/master/slim.sh )
-    
+
 This command will take several minutes to complete, and should leave you with a freshly optimized Raspbian installation.
 
